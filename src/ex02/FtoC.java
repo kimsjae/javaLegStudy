@@ -20,7 +20,7 @@ public class FtoC {
         f_temp = (9 * temp + 160) / 5;
         c_temp = (5 * temp - 160) / 9;
 
-        System.out.println((num == 1)? "섭씨온도는 " : "화씨온도는 ");
+        System.out.print((num == 1)? "섭씨온도는 " : "화씨온도는 ");
         System.out.println((num == 1)? c_temp : f_temp);
     }
 }
