@@ -1,4 +1,4 @@
-package ch02;
+package ex02;
 // 1광년 거리 계산하기
 public class Light {
     public static void main(String[] args) {

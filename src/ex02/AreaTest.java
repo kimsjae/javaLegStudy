@@ -1,4 +1,4 @@
-package ch02;
+package ex02;
 // 원의 면적 계산하기
 public class AreaTest {
     public static void main(String[] args) {
