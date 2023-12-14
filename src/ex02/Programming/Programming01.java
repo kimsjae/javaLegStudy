@@ -1,4 +1,4 @@
-package ex02;
+package ex02.Programming;
 
 import java.util.Scanner;
 
