@@ -10,9 +10,18 @@ public class Programming01 {
          * 또 몇개의 오렌지가 남을까?
          */
 
+        // 1. 오렌지 개수 입력
         System.out.print("오렌지의 개수를 입력하시오: ");
         Scanner sc = new Scanner(System.in);
+        int orange = sc.nextInt();
 
-        sc.nextInt();
+        // 2. 몇 상자 필요한 지 ?
+        int box = orange / 10;
+
+        // 3. 몇 개 남는 지?
+        int orange2 = orange % 10;
+
+        // 4. 몇박스 필요하고 몇개 남는지 출력
+        System.out.println(box + "박스가 필요하고 " + orange2 + "개가 남습니다.");
     }
 }
