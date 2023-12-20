@@ -1,5 +1,7 @@
 package ex04.test;
 
+import ex04.TvTest;
+
 public class ScopeEx01 {
 
     static void m3() {
@@ -44,7 +46,6 @@ public class ScopeEx01 {
          * 데이터는 스택에 저장
          * 실행은 스택 x
          */
-
-        }
+        TvTest.my();
     }
 }
