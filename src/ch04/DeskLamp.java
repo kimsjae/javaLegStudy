@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 public class DeskLamp {
     // 인스턴스 변수 정의

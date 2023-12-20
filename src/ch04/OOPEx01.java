@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 class Person3 {
     int weight = 100; // 상태

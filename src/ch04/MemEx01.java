@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 class Person1 {
     static int age = 20;

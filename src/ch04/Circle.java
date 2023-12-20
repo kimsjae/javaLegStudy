@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 // 설계도
 public class Circle {
@@ -10,6 +10,6 @@ public class Circle {
     }
 
     public double getArea() {
-        return 3.14*radius*radius;
+        return 3.14 * radius * radius;
     }
 }

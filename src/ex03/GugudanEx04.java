@@ -15,5 +15,6 @@ public class GugudanEx04 {
     public static void main(String[] args) {
         GugudanUtil.gugudan(10);
 
+
     }
 }

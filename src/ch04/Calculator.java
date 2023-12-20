@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 // 계산기 클래스 = 설계도
 public class Calculator {

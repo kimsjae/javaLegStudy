@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 class Person4 { // 상태는 행위를 통해 변경한다.
     // 상태 = 변수

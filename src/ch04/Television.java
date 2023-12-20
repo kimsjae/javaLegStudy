@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 public class Television {
     int channel; // 채널 번호

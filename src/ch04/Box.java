@@ -1,4 +1,4 @@
-package ex04;
+package ch04;
 
 public class Box {
     int width;
