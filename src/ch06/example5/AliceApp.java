@@ -15,7 +15,6 @@ class 왕 extends 판사 {
 }
 
 
-
 class 왕비 extends 판사 {
     public void 심문() {
         System.out.println("왕비는 심문한다.");
@@ -39,7 +38,7 @@ class 엘리스 extends 증인 {
         System.out.println("엘리스는 대답한다.");
     }
 }
-}
+
 
 public class AliceApp {
 
