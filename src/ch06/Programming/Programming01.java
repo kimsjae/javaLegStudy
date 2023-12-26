@@ -8,20 +8,18 @@ class Circle {
     }
 }
 
-class Pizza {
-    String name;
-    int num;
+class Pizza extends Circle {
+    String name = "Pepperoni";
 
-    public Pizza(String name, int num) {
+    public Pizza(String name, int r) {
+        super(r);
         this.name = name;
-        this.num = num;
     }
-
 }
 
 public class Programming01 {
     public static void main(String[] args) {
-        Pizza obj = new Pizza("Pepperoni", 20);
-        System.out.println("피자의 종류 : " + obj.name + ", 피자의 크기 : " + obj.num);
+        Pizza p = new Pizza("Pepperoni", 20);
+        System.out.println("피자의 종류 : " + p.name + ", 피자의 크기 : " + p.radius);
     }
 }
