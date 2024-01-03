@@ -1,5 +1,7 @@
 package ch08.example;
 
+import java.util.Arrays;
+
 class ContractInfo {
     private int money;
     private final String addr;
@@ -56,7 +58,21 @@ public class StringEx03 {
         // 3 : 전화번호
         // 4 : 이메일
         String data = "100:서울분당:이창호:01033338888:hello@nate.com";
-        String parse[] = data.split(":");
+        String[] parse = data.split(":");
 
+
+        ContractInfo con = new ContractInfo(100, "서울분당", "이창호", "01033338888", "hello@nate.com");
+
+        String datas = con.getMoney() + ":" + con.getAddr() + ":" + con.getName() + ":" + con.getTel() + ":" + con.getEmail();
+
+        System.out.println(datas);
+
+//        con.getMoney();
+//        con.getAddr();
+//        con.getName();
+//        con.getTel();
+//        con.getEmail();
+//
+//        System.out.println(Arrays.toString(parse));
     }
 }
