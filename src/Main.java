@@ -6,10 +6,11 @@ public class Main {
     public static void main(String[] args) {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         try {
-            bw.write("\\    /\\ \n");
-            bw.write(" )  ( ')\n");
-            bw.write("(  /  ) \n");
-            bw.write(" \\(__)| \n");
+            bw.write("|\\_/|\n");
+            bw.write("|q p|   /}\n");
+            bw.write("( 0 )\"\"\"\\\n");
+            bw.write("|\"^\"`    |\n");
+            bw.write("||_/=\\\\__|\n");
             bw.flush();
         } catch (IOException e) {
             throw new RuntimeException(e);
